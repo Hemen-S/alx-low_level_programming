@@ -4,7 +4,7 @@
 /**
  * main - prints the quote
  *
- * Description: print Dora's saying
+ * Description: prints Dora's saying
  * Return: Always 1
  */
 
