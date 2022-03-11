@@ -6,7 +6,7 @@
   * Returns: Always 0
   */
 
-int main(voi)
+int main(void)
 {
 	int i = 97;
 	int m = 65;
