@@ -33,7 +33,6 @@ int main(void)
 		j++;
 	}
 	i++;
-}
 
 putchar(10);
 
