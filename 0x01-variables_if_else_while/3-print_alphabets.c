@@ -8,16 +8,16 @@
 
 int main(void)
 {
-	int i = 65;
-	int m = 97;
+	int i = 97;
+	int m = 65;
 
-	while (i < 91)
+	while (i < 123)
 	{
 		putchar(i);
 		i++;
 	}
 
-	while (m < 123)
+	while (m < 91)
 	{
 		putchar(m);
 		m++;
