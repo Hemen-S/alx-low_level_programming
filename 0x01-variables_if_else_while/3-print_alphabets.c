@@ -8,6 +8,7 @@
   */
 
 int main(void)
+
 {
 	int i = 97;
 	int m = 65;
