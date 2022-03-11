@@ -16,13 +16,13 @@ int main(void)
 		putchar(i);
 		i++;
 	}
-	putchar(10);
 
 	while (m < 123)
 	{
 		putchar(m);
 		m++;
 	}
+
 	putchar(10);
 	return (0);
 }
