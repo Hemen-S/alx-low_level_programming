@@ -10,6 +10,8 @@
 int main(void)
 
 {
+	int i, m;
+	
 	int i = 97;
 	int m = 65;
 
