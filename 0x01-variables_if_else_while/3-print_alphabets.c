@@ -1,16 +1,14 @@
 #include <stdio.h>
 
- /**
-  * main - Entry point
-  *
-  * Description: prints all lowercase and uppercase alphabets
-  * Returns: Always 0
-  */
+/**
+ * main - Entry point
+ *
+ * Description: all alphabets printed
+ * Return: Always 0
+ */
 
 int main(void)
-
 {
-	
 	int i = 97;
 	int m = 65;
 
@@ -25,7 +23,8 @@ int main(void)
 		putchar(m);
 		m++;
 	}
-
 	putchar(10);
+
 	return (0);
 }
+
