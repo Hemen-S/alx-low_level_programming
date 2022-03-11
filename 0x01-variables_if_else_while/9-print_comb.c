@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: all possible combination of single digits 
+ * Description: all possible combination of single digits
  * Return: Always 0
  */
 
