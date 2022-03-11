@@ -8,14 +8,14 @@
 
 int main(void)
 {
-	char lower;
-	 putchar("Lowercase alphabet: \n"); 
+	int i = 97;
 
-	for (lower = 'a'; lower <= 'z'; lower++)
-	{ 
-		
-	putchar("%c", lower);
+	while (i < 123)
+	{
+		putchar(i);
+		i++;
 	}
+	putchar(10;)
 	
 	return (0);
 }
