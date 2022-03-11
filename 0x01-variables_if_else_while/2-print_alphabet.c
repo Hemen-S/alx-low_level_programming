@@ -9,13 +9,14 @@
 int main(void)
 {
 	char lower;
+	 putchar("Lowercase alphabet: \n"); 
+
 	for (lower = 'a'; lower <= 'z'; lower++)
 	{ 
 		
 	putchar("%c", lower);
 	}
-	putchar("Lowercase alphabet: \n");
-
+	
 	return (0);
 }
 
