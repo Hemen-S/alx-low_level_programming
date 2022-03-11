@@ -1,17 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - Entry point 
+ * main - Entry point
  *
- * Description: to print all single numbebrs with base ten without using char
+ * Description: prints all single digit numbers with base ten
  * Return: Always 0
  */
 
 int main(void)
 {
-	int i;
-
-	i = 48;
+	int i = 48;
 
 	while (i < 58)
 	{
