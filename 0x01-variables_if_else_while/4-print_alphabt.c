@@ -17,7 +17,7 @@ int main(void)
 		{
 			putchar(i);
 		} 
-			i++
+			i++;
 	}
 	putchar(10);
 	return (0);
