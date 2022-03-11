@@ -20,4 +20,4 @@ int main(void)
 		i++;
 	}
 	putchar(10);
-	return
+	return (0);
