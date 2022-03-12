@@ -5,6 +5,8 @@
 /**
  * main - Entry point
  *
+ * Description: prints digits
+ * Return: Always 0
  */
 
 
