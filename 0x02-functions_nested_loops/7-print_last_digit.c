@@ -13,7 +13,7 @@ int print_last_digit(int n)
 	if (n < 0)
 		poli = poli * -1;
 
-		_putchar('0' + poli);
+	_putchar('0' + poli);
 
-		return (poli);
+	return (poli);
 }
