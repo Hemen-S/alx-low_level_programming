@@ -11,7 +11,7 @@ void jack_bauer(void)
 	int hours_tens, hours_ones, minute_tens, minute_ones, hours_max;
 
 	hours_max = 58;
-	hoours_tens = '0';
+	hours_tens = '0';
 	while (hours_tens < '3')
 	{
 		if (hours_tens == '2')
@@ -28,7 +28,7 @@ void jack_bauer(void)
 				while (minute_ones < 58)
 				{
 					_putchar(hours_tens);
-					_putchar(hour_ones);
+					_putchar(hours_ones);
 					_putchar(':');
 					_putchar(minute_tens);
 					_putchar(minute_ones);
@@ -38,7 +38,7 @@ void jack_bauer(void)
 				minute_ones = '0';
 				minutes_tens++;
 			}
-			minutes_tens = '0';
+			minute_tens = '0';
 			hours_ones++;
 		}
 		hours_ones = '0';
