@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print alphabet x10 - prints lowercase alohabets 10 times
+ * print_alphabet_x10 - prints lowercase alohabets 10 times
  *
  * Return: void
  */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	int round = 0;
 	char i = 'a';
