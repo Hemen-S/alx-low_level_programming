@@ -19,7 +19,7 @@ void jack_bauer(void)
 			hours_max = '4';
 		}
 		hours_ones = '0';
-		while(hours_ones < hours_max)
+		while (hours_ones < hours_max)
 		{
 			minute_tens = '0';
 			while (minute_tens < '6')
