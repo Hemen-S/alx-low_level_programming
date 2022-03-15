@@ -9,7 +9,7 @@
 
 int print_last_digit(int n)
 {
-	int poli  = n % 10 
+	int poli  = n % 10; 
 
 		_putchar('0' + poli);
 
