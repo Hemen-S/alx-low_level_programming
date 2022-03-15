@@ -9,7 +9,8 @@
 
 int print_last_digit(int n)
 {
-	int poli = n % 10; 
+	int poli = n % 10;
+
 	if (n < 0)
 		poli = poli * -1;
 
