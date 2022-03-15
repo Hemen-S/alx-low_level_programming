@@ -9,13 +9,13 @@
 
 int print_sign(int n)
 {
-	int i = 0;
+	int n = 0;
 
-	if (i > 0)
+	if (n > 0)
 	{
 		return (1);
 	}
-	else if (i < 0)
+	else if (n < 0)
 	{
 		return (-1);
 	}
