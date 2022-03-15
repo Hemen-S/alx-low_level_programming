@@ -7,7 +7,7 @@
  * Return: void
  */
 
-int _abs(int)
+int _abs(int f)
 {
 	if (f > 0)
 	{
