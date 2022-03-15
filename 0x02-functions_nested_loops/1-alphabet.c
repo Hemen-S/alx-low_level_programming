@@ -1,5 +1,4 @@
 #include <main.h>
-#include <stdio.h>
 
 /**
  * main - Entry point 
@@ -10,9 +9,9 @@
 
 void print_alphabet(void);
 {
-	int i = 97;
+	char i = 'a';
 
-	while (i < 123)
+	while (i <= 'z')
 	{
 		_putchar(i);
 		i++;
