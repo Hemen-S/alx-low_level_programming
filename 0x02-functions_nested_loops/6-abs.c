@@ -2,7 +2,7 @@
 
 /**
  * _abs - determines absolute value of numebrs
- * @f - is an integer
+ * @f: is an integer
  *
  * Return: void
  */
