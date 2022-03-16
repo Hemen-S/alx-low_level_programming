@@ -2,7 +2,7 @@
 
 /**
  * print_times_table - prints n times table
- * @n: is an integer 
+ * @n: is an integer
  * Return: void
  */
 
@@ -48,4 +48,4 @@ void print_times_table(int n)
 			_putchar('\n');
 		}
 	}
-}	
+}
