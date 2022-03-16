@@ -2,12 +2,11 @@
 
 /**
  * print_times_table - prints n times table
- * @n - is an integer 
- *
+ * @n: is an integer 
  * Return: void
  */
 
- void print_times_table(int n)
+void print_times_table(int n)
 {
 	int row, column, product;
 
@@ -34,7 +33,7 @@
 					_putchar(',');
 					_putchar(' ');
 					_putchar(' ');
-					_putchar((product / 10) % '0');
+					_putchar((product / 10) % 10 + '0');
 					_putchar(product % 10 + '0');
 				}
 				else if (product > 99 && product < 1000)
