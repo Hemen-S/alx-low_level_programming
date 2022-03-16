@@ -2,7 +2,6 @@
 
 /**
 * main - causes an infinite loop
-* Description - it causes an infinte loop because i is not undergoing an increment
 * Return: 0
 */
 
