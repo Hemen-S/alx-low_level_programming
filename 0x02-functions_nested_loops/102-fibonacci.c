@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main- Entry point 
+ * main- Entry point
  * Return: 0
  */
 
@@ -26,7 +26,7 @@ int main(void)
 		count++;
 	}
 	sum = first + second;
-	printf("%li, ", sum);
+	printf("%li\n", sum);
 
 	return (0);
 }
