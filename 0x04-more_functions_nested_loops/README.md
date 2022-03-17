@@ -1,0 +1,1 @@
+this describes everything we will be doing in the nested loops below
