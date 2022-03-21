@@ -1,0 +1,1 @@
+all the scripts and programs written below describe pointers, arrays and strings
