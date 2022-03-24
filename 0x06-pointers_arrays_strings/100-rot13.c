@@ -1,21 +1,27 @@
 #include "main.h"
-
 /**
- * print_number -print number putchar
- * @n:integer
- * Return: void
+ * rot13 - encodes a string by rotating the characters 13 spaces.
+ * @s: pointer to input string.
+ * Return: Returns pointer encoded string.
  */
-void print_number(int n)
+char *rot13(char *s)
 {
-	unsigned int x = n;
+	int i, j;
+	char r[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+	char alpha[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char boolean;
 
-	if (n < 0)
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		_putchar('-');
-		x = -x;
+		boolean = 0;
+		for (j = 0; alpha[j] != '\0' && boolean == 0; j++)
+		{
+			if (s[i] == alpha[j])
+			{
+				s[i] = r[j];
+				boolean = 1;
+			}
+		}
 	}
-	if ((x / 10) > 0)
-		print_number(x / 10);
-
-	_putchar(x % 10 + '0');
+	return (s);
 }
