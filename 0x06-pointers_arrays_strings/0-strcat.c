@@ -1,19 +1,26 @@
-include "main.h"
+#include "main.h"
 
 /**
- * main - Entry point
- * Return: 0
- */   
-
+ * _strcat - concat 2 string
+ * @dest:char
+ * @src:char
+ * Return:char
+ */
 char *_strcat(char *dest, char *src)
 {
-    char src;
-    char dest;
+	char *s = dest;
 
-    strcat(src, dest);
-    _putchar(dest);
+	while (*dest != '\0')
+	{
+		dest++;
+	}
 
-    return (0);
+	while (*src != '\0')
+	{
+		*dest = *src;
+		dest++;
+		src++;
+	}
+	*dest = '\0';
+	return (s);
 }
-
-strcat(src, dest)
