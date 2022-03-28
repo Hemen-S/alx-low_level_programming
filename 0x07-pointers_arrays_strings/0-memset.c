@@ -2,9 +2,9 @@
 
 /**
  * _memset - fill memory with a constant byte
- * @s: char
- * @b: char
- * @n: size
+ * @s: pointer to char parameters
+ * @b: data to change
+ * @n: index
  * Return: *s
  */
 
