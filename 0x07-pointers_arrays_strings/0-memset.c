@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - prints buffer in hexa
+ * _memset - fills memory with a new byte
  * @s: char
  * @b: char
  * @n: unsigned int
