@@ -1,20 +1,26 @@
 #include "main.h"
-
 /**
- * _strspn - ditactes segment that contains only bytes
- * @s: char pointer
- * @accept: char pointer
- * Return: *s
- */
-
-unsigned int _strspn(char *s, char *accept);
+* _strspn - Gets the length of a prefix substring.
+* @s: String where substring will look.
+* @accept: Substring of accepted chars.
+* Return: Length of occurrence.
+*/
+unsigned int _strspn(char *s, char *accept)
 {
-    int i;
-    while (*s)
-    {
-        if (s[i] = accept[i])
-        {
-            return(s);
-        }
-    }
+	unsigned int c = 0;
+	char *t = accept;
+
+	while (*s++)
+	{
+		while (*accept++)
+			if (*(s - 1) == *(accept - 1))
+			{
+				c++;
+				break;
+			}
+		if (!(*--accept))
+			break;
+		accept = t;
+	}
+	return (c);
 }
