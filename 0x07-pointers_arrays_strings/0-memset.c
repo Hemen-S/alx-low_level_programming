@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _memset - fills memory with a new byte
  * @s: char
