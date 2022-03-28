@@ -3,7 +3,7 @@
 /**
  * _strspn - ditactes segment that contains only bytes
  * @s: char pointer
- * @accept: char
+ * @accept: char pointer
  * Return: *s
  */
 
