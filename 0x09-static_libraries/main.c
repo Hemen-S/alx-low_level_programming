@@ -4,13 +4,12 @@
 /**
  * main - prints name and is  followed by a new line
  * Return: the output (0)
- * @puts: prints a statement
  */ 
 
 int main(void)
 {	
-
-_puts("\"At the end of the day, my goal was to be the best hacker\"\n\t- Kevin Mitnick");
+	char c [] = "At the end of the day, my goal was to be the best hacker";
+putchar(c[0]);
 return (0);
 
 }
