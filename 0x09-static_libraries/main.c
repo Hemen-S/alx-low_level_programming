@@ -1,11 +1,8 @@
 #include "main.h"
 #include <stdio.h>
-<<<<<<< HEAD
 
-=======
->>>>>>> 8ae3b2fe83a4551d212d334813a616c012f34187
 /**
- * main - prints name followed by a new line
+ * main - prints name and is  followed by a new line
  * Return: the output (0)
  * @puts: prints a statement
  */ 
