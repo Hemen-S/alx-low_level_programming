@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * _puts - prints string
- * @str: input string
- * Return: no return
+ * _puts - function that prints a string, followed by a new line, to stdout
+ *
+ * @str: parameter defined in main
+ *
+ * Return: void
  */
 
 void _puts(char *str)
