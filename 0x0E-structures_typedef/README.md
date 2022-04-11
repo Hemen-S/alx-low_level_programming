@@ -1,0 +1,1 @@
+new practice on structure and typedef
